@@ -1,0 +1,27 @@
+
+@media (min-width: 850px) {
+  main {
+    column-count: 2;
+  }
+}
+
+main.about {
+  column-count: 1;
+}
+
+div.welcome {
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+div.card {
+  margin-bottom: 15px;
+}
+
+nav a.active {
+  color: rgba(0,0,0,.9);
+}
+
+div.btn-toolbar {
+  flex-wrap: wrap;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>O41000.com - Recordings of Charles Wesley Hymns</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="o41000.css">
+</head>
+<body>
+  <script src="o41000.js"></script>
+  <script>
+    var app = Elm.Main.fullscreen();
+    app.ports.title.subscribe(function(title) {
+        document.title = "O41000.com - Recordings of Charles Wesley Hymns | " + title;
+    });
+  </script>
+</body>
+</html>

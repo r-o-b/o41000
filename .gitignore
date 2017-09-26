@@ -1,0 +1,4 @@
+# start from https://github.com/github/gitignore/blob/master/Elm.gitignore
+elm-stuff
+scrapheap
+builder
